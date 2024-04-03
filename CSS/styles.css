@@ -1,9 +1,9 @@
-*{
+* {
 
     font-family: sans-serif;
     color: rgb(73, 75, 76);
   
-    box-sizing: content-box;
+    box-sizing: border-box;
 
 }
 
@@ -18,7 +18,7 @@ body {
 /*Header style*/
   .header {
     background: rgb(250, 247, 247);
-   margin: 0;
+   margin: 0px 0px 20px 0px;
     height: 80px;
    padding: 10px 10px 10px 20px;
     position: fixed;
@@ -35,3 +35,67 @@ body {
   
     
   }
+
+  .card {
+    margin: 20px 10%;
+    border: 5px solid #252629;
+    padding: 3% 10%;
+    scroll-margin-top: 100px;
+    border-radius: 2rem;
+    position: relative;
+   
+  }
+  
+  .card__heading {
+    margin: 0 0 10px 0;
+  }
+  
+  
+  .card__bookmark {
+    border: 2px solid #ff4a11;
+    font-size: 2em;
+    padding: 6px 12px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .card__button{
+    border: 2px solid #ff4a11;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color:  #ff4a11;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin: 0 30% 0 30%;
+
+    
+
+
+
+  }
+
+  .tag-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  
+.tag-list-item {
+  padding: 10px;
+  background-color: #999ba0;
+  color: #ffffff;
+  border-radius: 10px;
+  fonnt-size: 10px;
+
+}
+  
