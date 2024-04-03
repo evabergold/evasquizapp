@@ -1,0 +1,37 @@
+*{
+
+    font-family: sans-serif;
+    color: rgb(73, 75, 76);
+  
+    box-sizing: content-box;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 10px 200px 10px;
+  background-color:rgb(222, 244, 245);
+ 
+}
+
+/*Header style*/
+  .header {
+    background: rgb(250, 247, 247);
+   margin: 0;
+    height: 80px;
+   padding: 10px 10px 10px 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 0px silver;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+
+  
+    
+  }
