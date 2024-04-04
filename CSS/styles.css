@@ -87,6 +87,12 @@ body {
     
   }
 
+  .card__button__clicked{
+
+    background-color: rgb(231, 143, 28);
+    color: rgb(73, 75, 76);
+  }
+
   
 
   .tag-list {
