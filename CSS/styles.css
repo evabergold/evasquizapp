@@ -37,48 +37,57 @@ body {
   }
 
   .card {
-    margin: 20px 10%;
-    border: 5px solid #252629;
+    margin: 40px 10px  40px 10px;
+    border: 2px solid #252629;
     padding: 3% 10%;
     scroll-margin-top: 100px;
     border-radius: 2rem;
     position: relative;
+    width: 70%;
+    left: 15%;
+    box-shadow: 0px 0px 10px 0px silver;
    
   }
   
   .card__heading {
     margin: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
   }
   
   
   .card__bookmark {
-    border: 2px solid #ff4a11;
+    
     font-size: 2em;
     padding: 6px 12px;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     position: absolute;
-    top: 10px;
+    top: -20px;
     right: 10px;
+    background-color: rgb(222, 244, 245);
+  }
+
+  .card__text{
+    display: flex;
+    justify-content: center;
+
   }
 
   .card__button{
-    border: 2px solid #ff4a11;
+    
     font-size: 18px;
     border-radius: 10px;
-    background-color:  #ff4a11;
+    background-color:  #087784;
     color:#ffffff;
     display: flex;
     justify-content: center;
     height: 50px;
+    width: 50%;
     align-items: center;
-    margin: 0 30% 0 30%;
-
+    margin-left: 25%;
     
-
-
-
   }
+
+  
 
   .tag-list {
     list-style: none;
@@ -115,13 +124,56 @@ body {
   justify-content: space-around;
   gap: 5rem;
   align-items: center;
-  
-
- 
-
-
 }
 
 a:link, a:visited {
   text-decoration: none;
+ }
+
+ .profile-image{
+
+  width: 15%;
+  border-radius: 50%;
+
+ }
+
+ .personal{
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; 
+  margin: 40px 10px  40px 10px;
+
+
+ }
+
+ .aboutme{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px 10px  40px 10px;
+  
+
+
+ }
+
+ .settings{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  margin: 40px 10px  40px 10px;
+
+
+ }
+
+ .switch{
+
+  position:relative;
+  right: 0;
  }
