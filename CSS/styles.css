@@ -161,25 +161,41 @@ a:link, a:visited {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin: 40px 10px  40px 10px;
-  
-
-
  }
 
  .settings{
 
   display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: space-between;
-  margin: 40px 10px  40px 10px;
-
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
  }
 
  .switch{
 
-  position:relative;
-  right: 0;
+  font-size: 20px;
+ }
+
+ .counter-list{
+
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 60%;
+
+ }
+
+ .counter-list-item{
+  padding: 15px;
+  background-color: white;
+  color:  rgb(73, 75, 76);
+  border-radius: 10px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 60%;
  }
