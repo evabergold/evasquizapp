@@ -1,5 +1,5 @@
 .header {
-    background: rgb(250, 247, 247);
+    background: var(--accent-color);
     margin: 0px 0px 20px 0px;
     height: 80px;
     padding: 10px 10px 10px 20px;

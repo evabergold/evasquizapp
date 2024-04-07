@@ -1,0 +1,22 @@
+.card__button{
+    
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: var(--button-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    
+  }
+
+  .card__button__clicked{
+
+    background-color: rgb(231, 143, 28);
+    color: rgb(73, 75, 76);
+  }
+
+  

@@ -1,9 +1,10 @@
 
 
 @import"global.css";
-@import"./components/button.css";
+@import"./components/footer.css";
 @import"./components/card.css";
 @import"./components/header.css";
+@import"./components/button.css";
 
 
 body {
@@ -15,108 +16,11 @@ body {
 }
 
 
-  
-
-  .card {
-    margin: 40px 10px  40px 10px;
-    border: 2px solid #252629;
-    padding: 3% 10%;
-    scroll-margin-top: 100px;
-    border-radius: 2rem;
-    position: relative;
-    width: 70%;
-    left: 15%;
-    box-shadow: 0px 0px 10px 0px silver;
-   
-  }
-  
-  .card__heading {
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  
-  .card__bookmark {
-    
-    font-size: 2em;
-    padding: 6px 12px;
-    position: absolute;
-    top: -20px;
-    right: 10px;
-    background-color: var(--background-color);
-  }
-
-  .card__text{
-    display: flex;
-    justify-content: center;
-
-  }
-
-  .card__button{
-    
-    font-size: 18px;
-    border-radius: 10px;
-    background-color:  #087784;
-    color: var(--secondary-color);
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    width: 50%;
-    align-items: center;
-    margin-left: 25%;
-    
-  }
-
-  .card__button__clicked{
-
-    background-color: rgb(231, 143, 28);
-    color: rgb(73, 75, 76);
-  }
-
-  
-
-  .tag-list {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  
-.tag-list-item {
-  padding: 10px;
-  background-color: #999ba0;
-  color: var(--secondary-color);
-  border-radius: 10px;
-  font-size: 10px;
-
-}
-  
-
-.footer {
-  background: rgb(250, 247, 247);
-  color: rgb(80, 72, 72);
-  font-size: 40px;
-  height: 150px;
-  padding: 5px 5px 5px 20px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 5rem;
-  align-items: center;
-}
-
 a:link, a:visited {
   text-decoration: none;
  }
-
+ 
+ 
  .profile-image{
 
   width: 15%;
@@ -134,14 +38,6 @@ a:link, a:visited {
   margin: 40px 10px  40px 10px;
 
 
- }
-
- .aboutme{
-
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
  }
 
  .settings{

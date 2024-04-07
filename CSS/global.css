@@ -8,10 +8,11 @@
 
 :root{
 
-    --primary-color: rgb(73, 75, 76);
+    --primary-color: hsl(168, 5%, 20%);
     --secondary-color: hsl(0, 0%, 100%);
-    --button-color:  hsl(186, 89%, 27%);
-    --background-color: rgb(222, 244, 245);
-    --tag-color: hsl(223, 4%, 61%);
+    --button-color:  #73A393;
+    --background-color: #F4F7F6;
+    --tag-color: #9EC7B9;
+    --accent-color: #7DBCA7;
 
 }
