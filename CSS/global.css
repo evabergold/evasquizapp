@@ -9,10 +9,16 @@
 :root{
 
     --primary-color: hsl(168, 5%, 20%);
+    --primary-color-dark: #F1F3F2;
     --secondary-color: hsl(0, 0%, 100%);
+    --secondary-color-dark: #386153;
     --button-color:  #73A393;
+    --button-color-dark: #5B8B7B;
     --background-color: #F4F7F6;
+    --background-color-dark: #090C0B;
     --tag-color: #9EC7B9;
+    --tag-color-dark: #386153;
     --accent-color: #7DBCA7;
+    --accent-color-dark: #44836E;
 
 }
