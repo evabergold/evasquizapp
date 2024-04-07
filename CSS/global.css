@@ -1,0 +1,17 @@
+* {
+
+    font-family: sans-serif;
+    color: var(--primary-color);
+    box-sizing: border-box;
+
+}
+
+:root{
+
+    --primary-color: rgb(73, 75, 76);
+    --secondary-color: hsl(0, 0%, 100%);
+    --button-color:  hsl(186, 89%, 27%);
+    --background-color: rgb(222, 244, 245);
+    --tag-color: hsl(223, 4%, 61%);
+
+}
