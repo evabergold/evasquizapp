@@ -1,9 +1,9 @@
 
 
 @import"global.css";
-@import"../components/button.css";
-@import"../components/card.css";
-@import"../components/header.css";
+@import"./components/button.css";
+@import"./components/card.css";
+@import"./components/header.css";
 
 
 body {
@@ -15,22 +15,7 @@ body {
 }
 
 
-  .header {
-    background: rgb(250, 247, 247);
-   margin: 0px 0px 20px 0px;
-    height: 80px;
-   padding: 10px 10px 10px 20px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    box-shadow: 0px 0px 10px 0px silver;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 2rem; 
-  }
+  
 
   .card {
     margin: 40px 10px  40px 10px;
@@ -156,22 +141,18 @@ a:link, a:visited {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
  }
 
  .settings{
 
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
  }
 
- .switch{
-
-  font-size: 20px;
- }
 
  .counter-list{
 
