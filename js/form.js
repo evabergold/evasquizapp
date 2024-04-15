@@ -37,3 +37,30 @@ form.addEventListener("submit", (event) => {
 
  document.body.append(newCard);
 });
+
+
+const questionInput = document.querySelector('[data-js="new-question"]');
+const answerInput = document.querySelector('[data-js="new-answer"]');
+const questionCharactersLeft = document.querySelector(
+    '[data-js="remaining-question-characters"]'
+);
+const answerCharactersLeft = document.querySelector(
+    '[data-js="remaining-answer-characters"]'
+  );
+
+console.log("questionCharactersLeft", questionCharactersLeft);
+console.log("answerCharactersLeft", answerCharactersLeft);
+
+questionInput.addEventListener("input", (event) => {
+  console.log("input?", 150 - event.target.value.length);
+  questionCharactersLeft.textContent = 150 - event.target.value.length;
+});
+
+answerInput.addEventListener("input", (event) => {
+    console.log("input?", 150 - event.target.value.length);
+    answerCharactersLeft.textContent = 150 - event.target.value.length;
+  });
+
+
+
+
