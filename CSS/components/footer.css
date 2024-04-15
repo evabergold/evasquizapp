@@ -13,4 +13,5 @@
     justify-content: space-around;
     gap: 5rem;
     align-items: center;
+    z-index: 2;
   }
