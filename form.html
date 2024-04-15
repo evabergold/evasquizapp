@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/index.js" defer></script>
+    <script src="./js/form.js" defer></script>
     <script src="https://kit.fontawesome.com/a46f5700f6.js" crossorigin="anonymous"></script>
   </head>
   
@@ -26,20 +26,23 @@
       
       <section>
 
-        <form>
-            <label for="new-question" class="form__label">Neue Frage eingeben:</label>
-            <textarea name="new-question" class="form__input" id="new-question"></textarea>
+        <div>
 
-            <label for="new-answer" class="form__label">Neue Antwort eingeben:</label>
-            <textarea name="new-answer" class="form__input" id="new-answer"></textarea>
+        <form data-js="form">
+            <label for="newquestion" class="form__label" >Neue Frage eingeben:</label>
+            <textarea name="newquestion" class="form__input" id="newquestion" data-js="new-question"></textarea>
 
-            <label for="new-tags" class="form__label">Neues Tag eingeben:</label>
-            <input type="text" name="newtags" class="form__input tag__input" id="new-tags">
+            <label for="newanswer" class="form__label" >Neue Antwort eingeben:</label>
+            <textarea name="newanswer" class="form__input" id="newanswer" data-js="new-answer"></textarea>
+
+            <label for="newtags" class="form__label" >Neues Tag eingeben:</label>
+            <input type="text" name="newtags" class="form__input tag__input" id="newtags"  data-js="new-tags">
 
             <button type="submit" class="form__button">Absenden</button>
 
 
         </form>
+    </div>
     </section>
     
     </main>
